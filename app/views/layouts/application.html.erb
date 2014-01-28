@@ -8,6 +8,10 @@
 </head>
 <body>
 
+<%= render 'layouts/header' %>
+
+<p>Format of the page: <%= params[:format] %></p>
+<p>Parameters of the page: <%= params.inspect %></p>
 <%= yield %>
 
 </body>
