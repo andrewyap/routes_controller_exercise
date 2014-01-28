@@ -11,3 +11,31 @@
  *= require_self
  *= require_tree .
  */
+
+h2 {
+	font-family: Verdana;
+	font-size: 30px;
+}
+
+h4 {
+	font-family: Verdana;
+	font-size: 20px
+}
+
+
+th {
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-family: Verdana;
+	color: Purple;
+}
+
+td {
+	text-align: center;
+	font-family: Verdana;
+}
+
+td {
+	border-bottom: 1px solid black;
+	font-family: Verdana;
+}
